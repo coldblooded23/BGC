@@ -10,7 +10,6 @@
 	</parent>
 	<groupId>com.BGC-UI</groupId>
 	<artifactId>BGC-UI</artifactId>
-	<packaging>jar</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>BGC-UI</name>
 	<description>Background Verification</description>
