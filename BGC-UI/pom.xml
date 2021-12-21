@@ -74,16 +74,16 @@
 
     <distributionManagement>
     <repository>
-      <id>maven-release</id>
-      <name>maven-release</name>
-      <url>http://ec2-54-197-67-88.compute-1.amazonaws.com:8081/repository/maven-releases/</url>
+      <id>BGC-Release</id>
+      <name>BGC-Release</name>
+      <url>http://ec2-3-94-180-65.compute-1.amazonaws.com:8081/repository/BGC-Release/</url>
       <layout>default</layout>
 
     </repository>
     <snapshotRepository>
-      <id>maven-snapshot/</id>
-      <name>maven-snapshot</name>
-      <url>http://ec2-54-197-67-88.compute-1.amazonaws.com:8081/repository/maven-snapshots/</url>
+      <id>BGC-Snapshot</id>
+      <name>BGC-Snapshot</name>
+      <url>http://ec2-3-94-180-65.compute-1.amazonaws.com:8081/repository/BGC-Snapshot/</url>
       <layout>legacy</layout>
     </snapshotRepository>
   </distributionManagement>
