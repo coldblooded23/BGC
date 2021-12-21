@@ -72,4 +72,22 @@
 		</plugins>
 	</build>
 
+    <distributionManagement>
+    <repository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>BGC-Release</id>
+      <name>BGC-Release</name>
+      <url>http://ec2-52-91-224-130.compute-1.amazonaws.com:8081/repository/BGC-Release/</url>
+      <layout>default</layout>
+
+    </repository>
+    <snapshotRepository>
+      <uniqueVersion>true</uniqueVersion>
+      <id>BGC-Snapshot/</id>
+      <name>BGC-Snapshot</name>
+      <url>http://ec2-52-91-224-130.compute-1.amazonaws.com:8081/repository/BGC-Snapshot/</url>
+      <layout>legacy</layout>
+    </snapshotRepository>
+  </distributionManagement>
+
 </project>
