@@ -76,14 +76,14 @@
     <repository>
       <id>BGC-Release</id>
       <name>BGC-Release</name>
-      <url>http://ec2-3-94-180-65.compute-1.amazonaws.com:8081/repository/BGC-Release/</url>
+      <url>http://ec2-3-84-119-245.compute-1.amazonaws.com:8081/repository/BGC-Release/</url>
       <layout>default</layout>
 
     </repository>
     <snapshotRepository>
       <id>BGC-Snapshot</id>
       <name>BGC-Snapshot</name>
-      <url>http://ec2-3-94-180-65.compute-1.amazonaws.com:8081/repository/BGC-Snapshot/</url>
+      <url>http://ec2-3-84-119-245.compute-1.amazonaws.com:8081/repository/BGC-Snapshot/</url>
       <layout>legacy</layout>
     </snapshotRepository>
   </distributionManagement>
